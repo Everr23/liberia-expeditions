@@ -1,0 +1,108 @@
+{
+  "LiberiaExpeditions": {
+    "Name": "Liberia Expeditions"
+  },
+  "I18nSwitch": {
+    "EN": "🇺🇸 EN",
+    "ES": "🇪🇸 ES"
+  },
+  "Menu": {
+    "Home": "Inicio",
+    "Tours": "Tours",
+    "Transport": "Transporte",
+    "About": "Liberia Expeditions",
+    "Contact": "Contáctenos"
+  },
+  "Sections": {
+    "Welcome": {
+      "Title": "Bienvenidos a Liberia Expeditions",
+      "Subtitle": "¡Su puerta de entrada a la belleza natural y la vibrante cultura de Liberia, Costa Rica!",
+      "Paragraph-1": "Ubicado en el corazón de Guanacaste, ofrecemos a los viajeros una experiencia única de esta impresionante región, desde sus playas vírgenes y exuberantes selvas tropicales hasta los impresionantes volcanes y cascadas.",
+      "Paragraph-2": "Nuestra pasión es mostrar lo mejor de Costa Rica, creando viajes memorables que combinan aventura, relajación y experiencias culturales auténticas.",
+      "Contact": {
+        "Label": "Introduzca su dirección de correo electrónico",
+        "Button": "CONTÁCTENOS"
+      }
+    },
+    "Tours": {
+      "Title": "Tours",
+      "Subtitle": "Explore las mejores actividades para hacer en Liberia",
+      "Hours": "horas",
+      "Explore": "Ver más"
+    },
+    "FormSection": {
+      "Title": "¿Tienes alguna pregunta?",
+      "Subtitle": "Con mucho gusto te contactaremos",
+      "Form": {
+        "Fields": {
+          "Name": "Nombre*",
+          "Email": "Dirección de correo electrónico*",
+          "Phone": "Número de teléfono*",
+          "Message": "Tu mensaje..."
+        },
+        "Button": "ENVÍE SU PREGUNTA"
+      }
+    },
+    "ContactUs": {
+      "Title": "Contáctenos",
+      "Subtitle": "Nuestro equipo de atención al cliente está listo para atenderle"
+    },
+    "Footer": {
+      "RightsReserved": "Liberia Expeditions. Todos los derechos reservados.",
+      "CreatedBy": "Creado por"
+    }
+  },
+  "Tours": {
+    "Titles": {
+      "Description": "Descripción",
+      "Highlights": "Atractivos",
+      "Includes": "Incluye",
+      "Requirements": "Requisitos",
+      "RequirementsDetails": {
+        "Age": "Edad",
+        "Weight": "Peso",
+        "GroupSize": "Tamaño de grupo"
+      },
+      "Dificulty": "Dificultad",
+      "Recomendations": "Recomendaciones",
+      "DiscoverMoreTours": {
+        "Title": "Descubre Increibles Tours",
+        "Button": "Continuar explorando"
+      }
+    },
+    "BuenaVistaRincon": {
+      "Name": "TOUR BUENA VISTA DEL RINCÓN",
+      "Introduction": "Únase a nuestro recorrido guiado a caballo por senderos exuberantes, paisajes impresionantes y lugares ocultos, perfectos para aventureros de todos los niveles que buscan una conexión auténtica con la naturaleza.",
+      "Description": "Una visita guiada a una hermoso lugar donde vivira una experiencia memorable. Hacerlo a caballo hace que la experiencia sea inolvidable. Disfrutara de unas relajantes aguas termales. Conocera sobre la cultura de la zona. Además del disfrute de la flora y fauna de un bosque tropical lluvioso.",
+      "Duration": "6 horas",
+      "Activities": [
+        "Paseos a caballo",
+        "Puentes colgantes",
+        "Tirolesa",
+        "Tobogán acuático",
+        "Aguas termales",
+        "Recorrido cultural"
+      ],
+      "Location": "Provincia de Guanacaste, Cañas Dulces",
+      "Schedule": ["7:00 am entre semana", "8:00 am fines de semana"],
+      "Attractions": [
+        "En el camino, disfrute de una relajada experiencia de montar a caballo.",
+        "Relajantes aguas termales.",
+        "Avistamiento de monos congos, tucanes, mariposas, armadillos, entre otros."
+      ],
+      "Price": "200",
+      "Includes": [
+        "Guía local bilingüe.",
+        "Equipo de seguridad para cabalgata.",
+        "Almuerzo típico costarricense."
+      ],
+      "Requirements": {
+        "AgeMin": "10 años.",
+        "WeightMax": "100 kg.",
+        "SizeGroup": "No hay tamaño mínimo de grupo."
+      },
+      "Dificulty": "Ninguna",
+      "Recomendations": ["Pantalon largo y zapatos cerrados."]
+    }
+  }
+}

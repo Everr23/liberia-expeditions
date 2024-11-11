@@ -1,0 +1,108 @@
+{
+  "LiberiaExpeditions": {
+    "Name": "Liberia Expeditions"
+  },
+  "I18nSwitch": {
+    "EN": "🇺🇸 EN",
+    "ES": "🇪🇸 ES"
+  },
+  "Menu": {
+    "Home": "Home",
+    "Tours": "Tours",
+    "Transport": "Transport",
+    "About": "Liberia Expeditions",
+    "Contact": "Contact"
+  },
+  "Sections": {
+    "Welcome": {
+      "Title": "Welcome To Liberia Expeditions",
+      "Subtitle": "Your gateway to the natural beauty and vibrant culture of Liberia, Costa Rica!",
+      "Paragraph-1": "Nestled in the heart of Guanacaste, we offer travelers a unique experience of this stunning region, from its pristine beaches and lush rainforests to the breathtaking volcanoes and waterfalls.",
+      "Paragraph-2": "Our passion is to showcase the best of Costa Rica, creating memorable journeys that blend adventure, relaxation, and authentic cultural experiences.",
+      "Contact": {
+        "Label": "Enter your email address",
+        "Button": "CONTACT US"
+      }
+    },
+    "Tours": {
+      "Title": "Tours",
+      "Subtitle": "Explore the best things to do in Liberia",
+      "Hours": "hours",
+      "Explore": "Explore"
+    },
+    "FormSection": {
+      "Title": "Have any questions?",
+      "Subtitle": "We will be happy to contact you",
+      "Form": {
+        "Fields": {
+          "Name": "Your Name*",
+          "Email": "Email Address*",
+          "Phone": "Phone Number*",
+          "Message": "Your Message..."
+        },
+        "Button": "SEND YOUR QUESTION"
+      }
+    },
+    "ContactUs": {
+      "Title": "Contact Us",
+      "Subtitle": "Our customer team is ready to hear from you"
+    },
+    "Footer": {
+      "RightsReserved": "Liberia Expeditions. All rights reserved.",
+      "CreatedBy": "Created by"
+    }
+  },
+  "Tours": {
+    "Titles": {
+      "Description": "Description",
+      "Highlights": "Highlights",
+      "Includes": "Includes",
+      "Requirements": "Requirements",
+      "RequirementsDetails": {
+        "Age": "Age",
+        "Weight": "Weight",
+        "GroupSize": "Group size"
+      },
+      "Dificulty": "Dificulty",
+      "Recomendations": "Recomendations",
+      "DiscoverMoreTours": {
+        "Title": "Discover Amazing Tours",
+        "Button": "Continue exploring"
+      }
+    },
+    "BuenaVistaRincon": {
+      "Name": "TOUR BUENA VISTA DEL RINCÓN",
+      "Introduction": "Join our guided horseback tour through lush trails, stunning landscapes and hidden spots, perfect for adventurers of all levels seeking an authentic connection with nature.",
+      "Description": "A guided tour to a beautiful place where you will live a memorable experience. Doing it on horseback makes the experience unforgettable. You will enjoy relaxing hot springs. You will learn about the culture of the area. In addition to enjoying the flora and fauna of a tropical rainforest.",
+      "Duration": "6 hours",
+      "Activities": [
+        "Horseback riding",
+        "Hanging bridges",
+        "Zip line",
+        "Water slide",
+        "Hot springs",
+        "Cultural tour"
+      ],
+      "Location": "Province of Guanacaste, Cañas Dulces",
+      "Schedule": ["7:00 am weekdays", "8:00 am weekends"],
+      "Attractions": [
+        "On the way, enjoy a relaxing horseback riding experience.",
+        "Relaxing hot springs.",
+        "Sightings of howler monkeys, toucans, butterflies, armadillos, among others."
+      ],
+      "Price": "200",
+      "Includes": [
+        "Local bilingual guide.",
+        "Safety equipment for horseback riding.",
+        "Typical Costa Rican lunch."
+      ],
+      "Requirements": {
+        "AgeMin": "10 years old.",
+        "WeightMax": "100 kg.",
+        "SizeGroup": "There is no minimum group size.."
+      },
+      "Dificulty": "None",
+      "Recomendations": ["Long pants and closed shoes."]
+    }
+  }
+}
