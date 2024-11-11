@@ -67,9 +67,7 @@
               />
               <v-spacer />
               <v-btn
-                :text="
-                  t(`Tours.${tour.key}.Price`) + ' ' + t('Sections.Tours.Hours')
-                "
+                :text="t(`Tours.${tour.key}.Duration`)"
                 border
                 color="primary"
                 prepend-icon="mdi-clock-time-five-outline"

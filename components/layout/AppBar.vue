@@ -11,7 +11,9 @@
             height="100"
             src="/assets/liberia-expeditions-logo.png"
           />
-          {{ t("LiberiaExpeditions.Name") }}
+          <template v-if="$vuetify.display.mdAndUp">
+            {{ t("LiberiaExpeditions.Name") }}
+          </template>
         </div>
       </template>
 
