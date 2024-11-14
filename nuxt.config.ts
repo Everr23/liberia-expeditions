@@ -27,7 +27,8 @@ export default defineNuxtConfig({
     defaultLocale: "en",
   },
   components: [
-    { path: "components", global: true, pathPrefix: false },
     { path: "components/layout", global: true, pathPrefix: false },
+    { path: "components/sections", global: true, pathPrefix: false },
+    { path: "components/shared", global: true, pathPrefix: false },
   ],
 });

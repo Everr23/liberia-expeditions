@@ -11,7 +11,7 @@
     <v-container>
       <v-row>
         <v-col
-          v-for="tour in tours"
+          v-for="tour in TOURS"
           :key="tour.key"
           class="pa-5"
           cols="12"
@@ -30,7 +30,7 @@
               />
             </v-carousel>
 
-            <v-card-title class="bg-secondary text-center">
+            <v-card-title class="bg-secondary text-center text-uppercase">
               {{ t(`Tours.${tour.key}.Name`) }}
             </v-card-title>
 
@@ -97,60 +97,7 @@
 </template>
 
 <script setup lang="ts">
-const { t } = useI18n();
+import { TOURS } from "~/constants";
 
-interface ITour {
-  key: string;
-  to: string;
-  totalActivities: number;
-  totalSchedule: number;
-  totalAttractions: number;
-  totalIncludes: number;
-  totalRecomendations: number;
-  images: string[];
-}
-const tours: ITour[] = [
-  {
-    key: "BuenaVistaRincon",
-    to: "/tours/buena-vista-del-rincon",
-    totalActivities: 6,
-    totalSchedule: 2,
-    totalAttractions: 3,
-    totalIncludes: 3,
-    totalRecomendations: 1,
-    images: [
-      "/assets/tours/buena-vista-del-rincon/canopy-congo.jpg",
-      "/assets/tours/buena-vista-del-rincon/volcan-arenal.jpeg",
-      "/assets/tours/buena-vista-del-rincon/rafting.jpg",
-    ],
-  },
-  {
-    key: "BuenaVistaRincon",
-    to: "/tours/buena-vista-del-rincon",
-    totalActivities: 6,
-    totalSchedule: 2,
-    totalAttractions: 3,
-    totalIncludes: 3,
-    totalRecomendations: 1,
-    images: [
-      "/assets/tours/buena-vista-del-rincon/volcan-arenal.jpeg",
-      "/assets/tours/buena-vista-del-rincon/rafting.jpg",
-      "/assets/tours/buena-vista-del-rincon/canopy-congo.jpg",
-    ],
-  },
-  {
-    key: "BuenaVistaRincon",
-    to: "/tours/buena-vista-del-rincon",
-    totalActivities: 6,
-    totalSchedule: 2,
-    totalAttractions: 3,
-    totalIncludes: 3,
-    totalRecomendations: 1,
-    images: [
-      "/assets/tours/buena-vista-del-rincon/rafting.jpg",
-      "/assets/tours/buena-vista-del-rincon/canopy-congo.jpg",
-      "/assets/tours/buena-vista-del-rincon/volcan-arenal.jpeg",
-    ],
-  },
-];
+const { t } = useI18n();
 </script>

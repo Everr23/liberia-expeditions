@@ -3,10 +3,8 @@
     <v-layout>
       <v-main>
         <Header />
-        <Welcome />
-        <Tours />
-        <FormContact />
-        <ContactInfo />
+        <NuxtPage />
+        <v-spacer />
         <Footer />
       </v-main>
     </v-layout>

@@ -16,7 +16,7 @@
   "Sections": {
     "Welcome": {
       "Title": "Bienvenidos a Liberia Expeditions",
-      "Subtitle": "¡Su puerta de entrada a la belleza natural y la vibrante cultura de Liberia, Costa Rica!",
+      "Subtitle": "¡Su puerta de entrada a la belleza natural y la vibrante cultura de la provincia de Guanacaste, Costa Rica!",
       "Paragraph-1": "Ubicado en el corazón de Guanacaste, ofrecemos a los viajeros una experiencia única de esta impresionante región, desde sus playas vírgenes y exuberantes selvas tropicales hasta los impresionantes volcanes y cascadas.",
       "Paragraph-2": "Nuestra pasión es mostrar lo mejor de Costa Rica, creando viajes memorables que combinan aventura, relajación y experiencias culturales auténticas.",
       "Contact": {
@@ -26,7 +26,7 @@
     },
     "Tours": {
       "Title": "Tours",
-      "Subtitle": "Explore las mejores actividades para hacer en Liberia",
+      "Subtitle": "Explore las mejores actividades para hacer en Guanacaste",
       "Hours": "horas",
       "Explore": "Ver más"
     },
@@ -70,8 +70,8 @@
         "Button": "Continuar explorando"
       }
     },
-    "BuenaVistaRincon": {
-      "Name": "TOUR BUENA VISTA DEL RINCÓN",
+    "TourBuenaVistaRincon": {
+      "Name": "Tour Buena Vista del Rincón",
       "Introduction": "Únase a nuestro recorrido guiado a caballo por senderos exuberantes, paisajes impresionantes y lugares ocultos, perfectos para aventureros de todos los niveles que buscan una conexión auténtica con la naturaleza.",
       "Description": "Una visita guiada a una hermoso lugar donde vivira una experiencia memorable. Hacerlo a caballo hace que la experiencia sea inolvidable. Disfrutara de unas relajantes aguas termales. Conocera sobre la cultura de la zona. Además del disfrute de la flora y fauna de un bosque tropical lluvioso.",
       "Duration": "6 horas",
@@ -103,6 +103,101 @@
       },
       "Dificulty": "Ninguna",
       "Recomendations": ["Pantalon largo y zapatos cerrados."]
+    },
+    "TourRainForest": {
+      "Name": "Tour Rain Forest",
+      "Introduction": "Introduction",
+      "Description": "Description",
+      "Duration": "Duration",
+      "Activities": ["Activities"],
+      "Location": "Location",
+      "Schedule": ["Schedule"],
+      "Attractions": ["Attractions"],
+      "Price": "200",
+      "Includes": ["Includes"],
+      "Requirements": {
+        "AgeMin": "AgeMin",
+        "WeightMax": "WeightMax",
+        "SizeGroup": "SizeGroup"
+      },
+      "Dificulty": "Dificulty",
+      "Recomendations": ["Recomendations"]
+    },
+    "TourHornillas": {
+      "Name": "Tour Hornillas",
+      "Introduction": "Introduction",
+      "Description": "Description",
+      "Duration": "Duration",
+      "Activities": ["Activities"],
+      "Location": "Location",
+      "Schedule": ["Schedule"],
+      "Attractions": ["Attractions"],
+      "Price": "200",
+      "Includes": ["Includes"],
+      "Requirements": {
+        "AgeMin": "AgeMin",
+        "WeightMax": "WeightMax",
+        "SizeGroup": "SizeGroup"
+      },
+      "Dificulty": "Dificulty",
+      "Recomendations": ["Recomendations"]
+    },
+    "TourSunsetCruiseAndSnorckling": {
+      "Name": "Tour Sunset Cruise and Snorckling",
+      "Introduction": "Introduction",
+      "Description": "Description",
+      "Duration": "Duration",
+      "Activities": ["Activities"],
+      "Location": "Location",
+      "Schedule": ["Schedule"],
+      "Attractions": ["Attractions"],
+      "Price": "200",
+      "Includes": ["Includes"],
+      "Requirements": {
+        "AgeMin": "AgeMin",
+        "WeightMax": "WeightMax",
+        "SizeGroup": "SizeGroup"
+      },
+      "Dificulty": "Dificulty",
+      "Recomendations": ["Recomendations"]
+    },
+    "TourWildlifeTuncale": {
+      "Name": "Tour Wildlife Tuncale",
+      "Introduction": "Introduction",
+      "Description": "Description",
+      "Duration": "Duration",
+      "Activities": ["Activities"],
+      "Location": "Location",
+      "Schedule": ["Schedule"],
+      "Attractions": ["Attractions"],
+      "Price": "200",
+      "Includes": ["Includes"],
+      "Requirements": {
+        "AgeMin": "AgeMin",
+        "WeightMax": "WeightMax",
+        "SizeGroup": "SizeGroup"
+      },
+      "Dificulty": "Dificulty",
+      "Recomendations": ["Recomendations"]
+    },
+    "TourPaloVerde": {
+      "Name": "Tour Palo Verde",
+      "Introduction": "Introduction",
+      "Description": "Description",
+      "Duration": "Duration",
+      "Activities": ["Activities"],
+      "Location": "Location",
+      "Schedule": ["Schedule"],
+      "Attractions": ["Attractions"],
+      "Price": "200",
+      "Includes": ["Includes"],
+      "Requirements": {
+        "AgeMin": "AgeMin",
+        "WeightMax": "WeightMax",
+        "SizeGroup": "SizeGroup"
+      },
+      "Dificulty": "Dificulty",
+      "Recomendations": ["Recomendations"]
     }
   }
 }

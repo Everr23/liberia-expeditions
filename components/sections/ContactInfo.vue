@@ -13,7 +13,7 @@
 
     <div class="d-flex flex-1-1-auto flex-wrap ga-6 justify-center mt-10">
       <v-btn
-        :text="INFO.phone"
+        :text="CONTACT_INFO.phone"
         class="text-primary text-h6"
         height="55"
         prepend-icon="mdi-phone"
@@ -22,7 +22,7 @@
       />
 
       <v-btn
-        :text="INFO.email"
+        :text="CONTACT_INFO.email"
         class="text-primary text-h6"
         height="55"
         prepend-icon="mdi-email"
@@ -34,10 +34,7 @@
 </template>
 
 <script setup lang="ts">
-const { t } = useI18n();
+import { CONTACT_INFO } from "~/constants";
 
-const INFO = {
-  phone: "+(506) 6194 0884",
-  email: "libreriaexpeditions@gmail.com",
-};
+const { t } = useI18n();
 </script>

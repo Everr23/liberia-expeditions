@@ -14,16 +14,16 @@
         target="_blank"
         style="color: #b48125"
       >
-        {{ creator }}
+        {{ CREATOR }}
       </a>
     </p>
   </v-footer>
 </template>
 
 <script setup lang="ts">
-const { t } = useI18n();
+import { CREATOR } from "~/constants";
 
-const creator = "Ever Vega Suazo";
+const { t } = useI18n();
 </script>
 
 <style>

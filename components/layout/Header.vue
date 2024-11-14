@@ -9,7 +9,7 @@
           <img
             alt="Logo"
             height="100"
-            src="/assets/liberia-expeditions-logo.png"
+            src="/assets/logos/liberia-expeditions.png"
           />
           <template v-if="$vuetify.display.mdAndUp">
             {{ t("LiberiaExpeditions.Name") }}
@@ -35,27 +35,24 @@
         color="accent"
         variant="outlined"
       >
-        {{ locale === "en" ? t("I18nSwitch.ES") : t("I18nSwitch.EN") }}
+        {{ locale === LANGS.en ? t("I18nSwitch.EN") : t("I18nSwitch.ES") }}
       </v-btn>
     </v-app-bar>
   </div>
 </template>
 
 <script setup lang="ts">
+import { LANGS, MENU } from "~/constants";
+
 const { t, locale, setLocale } = useI18n();
 
-const menu = ref([
-  { titleKey: "Menu.Home", section: "/" },
-  { titleKey: "Menu.Tours", section: "/#tours" },
-  { titleKey: "Menu.Transport", section: "/#contact-us" },
-  { titleKey: "Menu.About", section: "/#home" },
-  { titleKey: "Menu.Contact", section: "/#contact-us" },
-]);
+const menu = ref(MENU);
 
 function toggleLanguage() {
-  setLocale(locale.value === "en" ? "es" : "en");
+  setLocale(locale.value === LANGS.en ? LANGS.es : LANGS.en);
 }
 </script>
+
 <style>
 .header-top {
   position: fixed;
