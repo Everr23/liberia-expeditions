@@ -25,6 +25,8 @@ export default defineNuxtConfig({
   i18n: {
     vueI18n: "./i18n/vueI18n.ts",
     defaultLocale: "en",
+    locales: ["en", "es"],
+    strategy: "no_prefix",
   },
   components: [
     { path: "components/layout", global: true, pathPrefix: false },

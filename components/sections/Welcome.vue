@@ -10,7 +10,7 @@
     </div>
 
     <p
-      class="text-h5 font-weight-light mb-5 text-left"
+      class="text-h4 font-weight-light mb-5 text-left text-secondary"
       style="max-width: 700px"
     >
       <b>{{ t("Sections.Welcome.Subtitle") }}</b>

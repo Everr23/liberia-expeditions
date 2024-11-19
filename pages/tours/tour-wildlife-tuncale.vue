@@ -1,17 +1,18 @@
 <template>
   <TourView
-    :images="['/assets/tours/tour-wildlife-tuncale/image-1.png']"
-    :total-activities="1"
-    :total-attractions="1"
-    :total-includes="1"
-    :total-recomendations="1"
-    :total-schedule="1"
-    tour-key="TourWildlifeTuncale"
+    :images="tour.images"
+    :total-activities="tour.totalActivities"
+    :total-attractions="tour.totalAttractions"
+    :total-includes="tour.totalIncludes"
+    :total-recommendations="tour.totalRecommendations"
+    :total-schedule="tour.totalSchedule"
+    :tourKey
   />
 </template>
 
 <script lang="ts" setup>
-definePageMeta({
-  layout: "tours",
-});
+import { TOURS } from "~/constants";
+
+const tourKey = "TourWildlifeTuncale";
+const tour = TOURS.find((t) => t.key === tourKey) as ITour;
 </script>

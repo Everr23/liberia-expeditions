@@ -35,21 +35,21 @@
         color="accent"
         variant="outlined"
       >
-        {{ locale === LANGS.en ? t("I18nSwitch.EN") : t("I18nSwitch.ES") }}
+        {{ locale === ELangs.en ? t("I18nSwitch.EN") : t("I18nSwitch.ES") }}
       </v-btn>
     </v-app-bar>
   </div>
 </template>
 
 <script setup lang="ts">
-import { LANGS, MENU } from "~/constants";
+import { ELangs, MENU } from "~/constants";
 
 const { t, locale, setLocale } = useI18n();
 
 const menu = ref(MENU);
 
 function toggleLanguage() {
-  setLocale(locale.value === LANGS.en ? LANGS.es : LANGS.en);
+  setLocale(locale.value === ELangs.en ? ELangs.es : ELangs.en);
 }
 </script>
 

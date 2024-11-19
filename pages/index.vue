@@ -1,3 +1,8 @@
 <template>
-  <div>Home</div>
+  <div>
+    <Welcome />
+    <Tours />
+    <FormContact />
+    <ContactInfo />
+  </div>
 </template>

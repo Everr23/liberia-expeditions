@@ -1,21 +1,18 @@
 <template>
   <TourView
-    :images="[
-      '/assets/tours/tour-buena-vista-del-rincon/canopy-congo.jpg',
-      '/assets/tours/tour-buena-vista-del-rincon/volcan-arenal.jpeg',
-      '/assets/tours/tour-buena-vista-del-rincon/rafting.jpg',
-    ]"
-    :total-activities="6"
-    :total-attractions="3"
-    :total-includes="3"
-    :total-recomendations="1"
-    :total-schedule="2"
-    tour-key="TourBuenaVistaRincon"
+    :images="tour.images"
+    :total-activities="tour.totalActivities"
+    :total-attractions="tour.totalAttractions"
+    :total-includes="tour.totalIncludes"
+    :total-recommendations="tour.totalRecommendations"
+    :total-schedule="tour.totalSchedule"
+    :tourKey
   />
 </template>
 
 <script lang="ts" setup>
-definePageMeta({
-  layout: "tours",
-});
+import { TOURS } from "~/constants";
+
+const tourKey = "TourBuenaVistaRincon";
+const tour = TOURS.find((t) => t.key === tourKey) as ITour;
 </script>

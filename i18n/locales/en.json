@@ -15,7 +15,7 @@
   },
   "Sections": {
     "Welcome": {
-      "Title": "Welcome To Liberia Expeditions",
+      "Title": "Welcome To Liberia Expeditions!",
       "Subtitle": "Your gateway to the natural beauty and vibrant culture of Guanacaste province, Costa Rica!",
       "Paragraph-1": "Nestled in the heart of Guanacaste, we offer travelers a unique experience of this stunning region, from its pristine beaches and lush rainforests to the breathtaking volcanoes and waterfalls.",
       "Paragraph-2": "Our passion is to showcase the best of Costa Rica, creating memorable journeys that blend adventure, relaxation, and authentic cultural experiences.",
@@ -63,8 +63,8 @@
         "Weight": "Weight",
         "GroupSize": "Group size"
       },
-      "Dificulty": "Dificulty",
-      "Recomendations": "Recomendations",
+      "Difficulty": "Difficulty",
+      "Recommendations": "Recommendations",
       "DiscoverMoreTours": {
         "Title": "Discover Amazing Tours",
         "Button": "Continue exploring"
@@ -101,103 +101,214 @@
         "WeightMax": "100 kg.",
         "SizeGroup": "There is no minimum group size.."
       },
-      "Dificulty": "None",
-      "Recomendations": ["Long pants and closed shoes."]
+      "Difficulty": "None",
+      "Recommendations": ["Long pants and closed shoes."]
     },
     "TourRainForest": {
       "Name": "Tour Rain Forest",
-      "Introduction": "Introduction",
-      "Description": "Description",
-      "Duration": "Duration",
-      "Activities": ["Activities"],
-      "Location": "Location",
-      "Schedule": ["Schedule"],
-      "Attractions": ["Attractions"],
+      "Introduction": "Explore the beauty of the rainforest with visits to natural waterfalls, volcanic sites, and encounters with unique wildlife.",
+      "Description": "This tour takes you through Costa Rica's rainforest, where you'll experience breathtaking landscapes, lush wildlife, and cultural flavors.",
+      "Duration": "6 hours",
+      "Activities": [
+        "Waterfall",
+        "Wildlife spotting",
+        "Rainforest",
+        "Volcano",
+        "Traditional Costa Rican food"
+      ],
+      "Location": "Guanacaste, Costa Rica",
+      "Schedule": ["7:00 am"],
+      "Attractions": [
+        "Llano del Cortes Waterfall",
+        "Tenorio Volcano",
+        "Rainforest wildlife and flora",
+        "Wildlife spotting, including 2- and 3-toed sloths"
+      ],
       "Price": "200",
-      "Includes": ["Includes"],
+      "Includes": [
+        "Transportation to and from the tour locations",
+        "Professional guide",
+        "Entrance fees to attractions",
+        "Traditional lunch"
+      ],
       "Requirements": {
-        "AgeMin": "AgeMin",
-        "WeightMax": "WeightMax",
-        "SizeGroup": "SizeGroup"
+        "AgeMin": "8 years",
+        "SizeGroup": "Maximum of 15 participants",
+        "WeightMax": "120 kg"
       },
-      "Dificulty": "Dificulty",
-      "Recomendations": ["Recomendations"]
+      "Difficulty": "Moderate",
+      "Recommendations": [
+        "Wear comfortable hiking shoes and clothing",
+        "Bring a raincoat or waterproof gear",
+        "Apply sunscreen and insect repellent",
+        "Carry a water bottle",
+        "Bring a camera for photography"
+      ]
     },
     "TourHornillas": {
       "Name": "Tour Hornillas",
-      "Introduction": "Introduction",
-      "Description": "Description",
-      "Duration": "Duration",
-      "Activities": ["Activities"],
-      "Location": "Location",
-      "Schedule": ["Schedule"],
-      "Attractions": ["Attractions"],
+      "Introduction": "A family-friendly tour offering a unique experience in nature and wildlife exploration.",
+      "Description": "Explore the beauty of the rainforest with activities that include horseback riding, hanging bridges, waterfalls, volcanic mud baths, and hot springs. Ideal for families and nature enthusiasts seeking adventure and relaxation.",
+      "Duration": "5 hours",
+      "Activities": [
+        "Horseback riding",
+        "Volcano",
+        "Waterfalls",
+        "Hiking",
+        "Mud pools",
+        "Thermal waters"
+      ],
+      "Location": "Hornillas, Costa Rica",
+      "Schedule": ["Pick up time: 7:00 a.m. or 9:00 a.m."],
+      "Attractions": [
+        "Rainforest horseback riding",
+        "Hanging bridges",
+        "Breathtaking waterfalls",
+        "Active volcanic crater",
+        "Volcanic mud baths",
+        "Thermal hot springs"
+      ],
       "Price": "200",
-      "Includes": ["Includes"],
+      "Includes": [
+        "Transportation to and from the location",
+        "Guided horseback riding",
+        "Access to hanging bridges and waterfalls",
+        "Lunch in the area",
+        "Guided hike to an active crater",
+        "Volcanic mud baths",
+        "Access to thermal springs"
+      ],
       "Requirements": {
-        "AgeMin": "AgeMin",
-        "WeightMax": "WeightMax",
-        "SizeGroup": "SizeGroup"
+        "AgeMin": "6 years",
+        "WeightMax": "220 lbs (100 kg)",
+        "SizeGroup": "Maximum of 15 participants"
       },
-      "Dificulty": "Dificulty",
-      "Recomendations": ["Recomendations"]
+      "Difficulty": "None",
+      "Recommendations": [
+        "Wear comfortable hiking shoes",
+        "Bring a swimsuit and towel for the hot springs",
+        "Apply sunscreen and insect repellent",
+        "Carry a water bottle and a change of clothes",
+        "Be prepared for light rain in the rainforest"
+      ]
     },
     "TourSunsetCruiseAndSnorckling": {
       "Name": "Tour Sunset Cruise and Snorckling",
-      "Introduction": "Introduction",
-      "Description": "Description",
-      "Duration": "Duration",
-      "Activities": ["Activities"],
-      "Location": "Location",
-      "Schedule": ["Schedule"],
-      "Attractions": ["Attractions"],
+      "Introduction": "A breathtaking tour along the Pacific coast of the Papagayo Peninsula, perfect for those seeking adventure and relaxation on the water.",
+      "Description": "Embark on a scenic sailboat cruise along the beautiful coastline, enjoy crystal-clear waters, explore vibrant marine life while snorkeling, and unwind as you wait for a stunning sunset.",
+      "Duration": "4.5 hours",
+      "Activities": ["Sail", "Snorkel", "Marine life", "Sunset"],
+      "Location": "Papagayo Peninsula",
+      "Schedule": ["Pick up time: 7:30 a.m. or 11:30 a.m."],
+      "Attractions": [
+        "Scenic Pacific coastline",
+        "Clear waters ideal for snorkeling",
+        "Rich and diverse marine life",
+        "Spectacular Pacific sunset"
+      ],
       "Price": "200",
-      "Includes": ["Includes"],
+      "Includes": [
+        "Sailboat cruise along the coast",
+        "Snorkeling equipment",
+        "Guided snorkeling session",
+        "Light refreshments and beverages on board",
+        "Experienced tour guides"
+      ],
       "Requirements": {
-        "AgeMin": "AgeMin",
-        "WeightMax": "WeightMax",
-        "SizeGroup": "SizeGroup"
+        "AgeMin": "8 years",
+        "WeightMax": "No specific limit",
+        "SizeGroup": "Maximum of 20 participants"
       },
-      "Dificulty": "Dificulty",
-      "Recomendations": ["Recomendations"]
+      "Difficulty": "None",
+      "Recommendations": [
+        "Bring swimwear and a towel",
+        "Use sunscreen and a hat to protect from the sun",
+        "Carry a waterproof camera for underwater photos",
+        "Wear comfortable sandals or water shoes",
+        "Stay hydrated throughout the tour"
+      ]
     },
     "TourWildlifeTuncale": {
       "Name": "Tour Wildlife Tuncale",
-      "Introduction": "Introduction",
-      "Description": "Description",
-      "Duration": "Duration",
-      "Activities": ["Activities"],
-      "Location": "Location",
-      "Schedule": ["Schedule"],
-      "Attractions": ["Attractions"],
+      "Introduction": "A guided nature experience in the Tenorio Rainforest, perfect for birdwatchers and wildlife enthusiasts.",
+      "Description": "Explore the lush biodiversity of the Tenorio Rainforest on this unforgettable tour. Enjoy birdwatching, spot sloths in their natural habitat, visit the majestic Tenorio Volcano, and savor a delicious lunch in Bebedero. A must for nature lovers and adventure seekers.",
+      "Duration": "4 to 6 hours",
+      "Activities": ["Birdwatching", "Sloths", "Volcano", "Traditional food"],
+      "Location": "Guanacaste",
+      "Schedule": ["Pick up time: 7:00 a.m. or 9:00 a.m."],
+      "Attractions": [
+        "Tenorio Rainforest",
+        "Diverse bird species",
+        "Sloth sightings",
+        "Scenic views of Tenorio Volcano"
+      ],
       "Price": "200",
-      "Includes": ["Includes"],
+      "Includes": [
+        "Round-trip transportation",
+        "Professional guide",
+        "Birdwatching equipment (binoculars)",
+        "Lunch in Bebedero",
+        "Visit to Tenorio Volcano",
+        "Wildlife observation stops"
+      ],
       "Requirements": {
-        "AgeMin": "AgeMin",
-        "WeightMax": "WeightMax",
-        "SizeGroup": "SizeGroup"
+        "AgeMin": "6 years",
+        "WeightMax": "No specific limit",
+        "SizeGroup": "Maximum of 10 participants"
       },
-      "Dificulty": "Dificulty",
-      "Recomendations": ["Recomendations"]
+      "Difficulty": "Easy to Moderate",
+      "Recommendations": [
+        "Wear comfortable clothing and hiking shoes",
+        "Bring binoculars for enhanced birdwatching",
+        "Use sunscreen and insect repellent",
+        "Carry a reusable water bottle",
+        "Bring a camera for wildlife photography"
+      ]
     },
     "TourPaloVerde": {
       "Name": "Tour Palo Verde",
-      "Introduction": "Introduction",
-      "Description": "Description",
-      "Duration": "Duration",
-      "Activities": ["Activities"],
-      "Location": "Location",
-      "Schedule": ["Schedule"],
-      "Attractions": ["Attractions"],
+      "Introduction": "A unique experience for nature lovers, combining wildlife observation, cultural heritage, and agricultural traditions in the beautiful Palo Verde region.",
+      "Description": "Discover the wonders of nature and culture on this guided tour. Navigate the Tempisque River to observe a variety of birds, reptiles, and amphibians in their natural habitat. Learn about local agricultural practices and enjoy an authentic Costa Rican lunch, followed by a traditional ceramics exhibition.",
+      "Duration": "2 hours",
+      "Activities": [
+        "River navigation",
+        "Birds",
+        "Reptile and amphibian",
+        "Traditional food",
+        "Ceramics exhibition"
+      ],
+      "Location": "Palo Verde National Park, Tempisque River",
+      "Schedule": [
+        "Morning tour: Pick up at 7:00 a.m.",
+        "Afternoon tour: Pick up at 1:00 p.m."
+      ],
+      "Attractions": [
+        "Tempisque River wildlife",
+        "Rich biodiversity including birds, reptiles, and amphibians",
+        "Cultural exhibits of traditional ceramics",
+        "Agricultural demonstrations (sugarcane, corn, and more)"
+      ],
       "Price": "200",
-      "Includes": ["Includes"],
+      "Includes": [
+        "Round-trip transportation",
+        "Guided river tour",
+        "Wildlife observation",
+        "Typical Costa Rican lunch",
+        "Access to ceramics exhibition"
+      ],
       "Requirements": {
-        "AgeMin": "AgeMin",
-        "WeightMax": "WeightMax",
-        "SizeGroup": "SizeGroup"
+        "AgeMin": "5 years",
+        "WeightMax": "No specific limit",
+        "SizeGroup": "Maximum of 12 participants"
       },
-      "Dificulty": "Dificulty",
-      "Recomendations": ["Recomendations"]
+      "Difficulty": "Easy",
+      "Recommendations": [
+        "Wear light, comfortable clothing and shoes",
+        "Bring sunscreen and insect repellent",
+        "Carry a reusable water bottle",
+        "Bring a hat and sunglasses",
+        "Bring a camera for wildlife photography"
+      ]
     }
   }
 }

@@ -4,11 +4,11 @@ declare global {
   interface ITour {
     key: string;
     to: string;
+    images: string[];
     totalActivities: number;
-    totalSchedule: number;
     totalAttractions: number;
     totalIncludes: number;
-    totalRecomendations: number;
-    images: string[];
+    totalRecommendations: number;
+    totalSchedule: number;
   }
 }

@@ -131,22 +131,22 @@
           </div>
 
           <div class="text-h5 text-primary">
-            {{ t("Tours.Titles.Dificulty") }}
+            {{ t("Tours.Titles.Difficulty") }}
           </div>
           <v-sheet class="text-medium-emphasis mt-3 mb-5">
-            {{ t(`Tours.${props.tourKey}.Dificulty`) }}
+            {{ t(`Tours.${props.tourKey}.Difficulty`) }}
           </v-sheet>
 
           <div class="text-h5 text-primary mt-5">
-            {{ t("Tours.Titles.Recomendations") }}
+            {{ t("Tours.Titles.Recommendations") }}
           </div>
           <div
-            v-for="n in props.totalRecomendations"
+            v-for="n in props.totalRecommendations"
             :key="n"
             class="text-medium-emphasis my-2 mb-3"
           >
             <v-icon color="accent" icon="mdi-circle-medium" start />
-            {{ t(`Tours.${props.tourKey}.Recomendations[${n - 1}]`) }}
+            {{ t(`Tours.${props.tourKey}.Recommendations[${n - 1}]`) }}
           </div>
         </v-col>
       </v-row>
@@ -184,7 +184,7 @@ const props = defineProps({
   totalSchedule: { type: Number, required: true },
   totalAttractions: { type: Number, required: true },
   totalIncludes: { type: Number, required: true },
-  totalRecomendations: { type: Number, required: true },
+  totalRecommendations: { type: Number, required: true },
   images: { type: Array<string>, required: true },
 });
 </script>

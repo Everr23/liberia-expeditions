@@ -15,7 +15,7 @@
   },
   "Sections": {
     "Welcome": {
-      "Title": "Bienvenidos a Liberia Expeditions",
+      "Title": "¡Bienvenidos a Liberia Expeditions!",
       "Subtitle": "¡Su puerta de entrada a la belleza natural y la vibrante cultura de la provincia de Guanacaste, Costa Rica!",
       "Paragraph-1": "Ubicado en el corazón de Guanacaste, ofrecemos a los viajeros una experiencia única de esta impresionante región, desde sus playas vírgenes y exuberantes selvas tropicales hasta los impresionantes volcanes y cascadas.",
       "Paragraph-2": "Nuestra pasión es mostrar lo mejor de Costa Rica, creando viajes memorables que combinan aventura, relajación y experiencias culturales auténticas.",
@@ -63,8 +63,8 @@
         "Weight": "Peso",
         "GroupSize": "Tamaño de grupo"
       },
-      "Dificulty": "Dificultad",
-      "Recomendations": "Recomendaciones",
+      "Difficulty": "Dificultad",
+      "Recommendations": "Recomendaciones",
       "DiscoverMoreTours": {
         "Title": "Descubre Increibles Tours",
         "Button": "Continuar explorando"
@@ -101,103 +101,219 @@
         "WeightMax": "100 kg.",
         "SizeGroup": "No hay tamaño mínimo de grupo."
       },
-      "Dificulty": "Ninguna",
-      "Recomendations": ["Pantalon largo y zapatos cerrados."]
+      "Difficulty": "Ninguna",
+      "Recommendations": ["Pantalon largo y zapatos cerrados."]
     },
     "TourRainForest": {
       "Name": "Tour Rain Forest",
-      "Introduction": "Introduction",
-      "Description": "Description",
-      "Duration": "Duration",
-      "Activities": ["Activities"],
-      "Location": "Location",
-      "Schedule": ["Schedule"],
-      "Attractions": ["Attractions"],
+      "Introduction": "Explore la belleza de la selva tropical con visitas a cascadas naturales, sitios volcánicos y encuentros con vida silvestre única.",
+      "Description": "Este tour lo llevará a través de la selva tropical de Costa Rica, donde experimentará paisajes impresionantes, exuberante vida silvestre y sabores culturales.",
+      "Duration": "6 horas",
+      "Activities": [
+        "Cascada",
+        "Observación de vida silvestre",
+        "Selva tropical",
+        "Volcán",
+        "Comida tradicional costarricense"
+      ],
+      "Location": "Guanacaste, Costa Rica",
+      "Schedule": ["7:00 am"],
+      "Attractions": [
+        "Cascada del Llano del Cortes",
+        "Volcán Tenorio",
+        "Flora y fauna de la selva tropical",
+        "Avistamiento de fauna, incluidos perezosos de 2 y 3 dedos"
+      ],
       "Price": "200",
-      "Includes": ["Includes"],
+      "Includes": [
+        "Transporte desde y hasta los lugares de visita",
+        "Guía profesional",
+        "Entradas a las atracciones",
+        "Almuerzo tradicional"
+      ],
       "Requirements": {
-        "AgeMin": "AgeMin",
-        "WeightMax": "WeightMax",
-        "SizeGroup": "SizeGroup"
+        "AgeMin": "8 años",
+        "SizeGroup": "Maximo de 15 participantes",
+        "WeightMax": "120 kg"
       },
-      "Dificulty": "Dificulty",
-      "Recomendations": ["Recomendations"]
+      "Difficulty": "Moderada",
+      "Recommendations": [
+        "Use ropa y calzado cómodos para caminar",
+        "Traiga un impermeable o ropa a prueba de agua",
+        "Aplíquese protector solar y repelente de insectos",
+        "Lleve una botella de agua",
+        "Traiga una cámara para tomar fotografías"
+      ]
     },
     "TourHornillas": {
       "Name": "Tour Hornillas",
-      "Introduction": "Introduction",
-      "Description": "Description",
-      "Duration": "Duration",
-      "Activities": ["Activities"],
-      "Location": "Location",
-      "Schedule": ["Schedule"],
-      "Attractions": ["Attractions"],
+      "Introduction": "Un recorrido familiar que ofrece una experiencia única de exploración de la naturaleza y la vida silvestre.",
+      "Description": "Explora la belleza de la selva tropical con actividades que incluyen paseos a caballo, puentes colgantes, cascadas, baños de barro volcánico y aguas termales. Ideal para familias y amantes de la naturaleza que buscan aventura y relajación.",
+      "Duration": "5 horas",
+      "Activities": [
+        "Cabalgatas",
+        "Volcán",
+        "Cascadas",
+        "Senderismo",
+        "Pozas de lodo",
+        "Aguas termales"
+      ],
+      "Location": "Hornillas, Costa Rica",
+      "Schedule": ["Hora de recogida: 7:00 a.m. o 9:00 a.m."],
+      "Attractions": [
+        "Cabalgatas por la selva tropical",
+        "Puentes colgantes",
+        "Cascadas impresionantes",
+        "Cráter volcánico activo",
+        "Baños de barro volcánico",
+        "Aguas termales"
+      ],
       "Price": "200",
-      "Includes": ["Includes"],
+      "Includes": [
+        "Transporte desde y hasta el lugar",
+        "Cabalgata guiada",
+        "Acceso a puentes colgantes y cascadas",
+        "Almuerzo en la zona",
+        "Caminata guiada a un cráter activo",
+        "Baños de barro volcánico",
+        "Acceso a aguas termales"
+      ],
       "Requirements": {
-        "AgeMin": "AgeMin",
-        "WeightMax": "WeightMax",
-        "SizeGroup": "SizeGroup"
+        "AgeMin": "6 años",
+        "WeightMax": "100 kg",
+        "SizeGroup": "Máximo de 15 participantes"
       },
-      "Dificulty": "Dificulty",
-      "Recomendations": ["Recomendations"]
+      "Difficulty": "Ninguna",
+      "Recommendations": [
+        "Use zapatos cómodos para caminar",
+        "Traiga traje de baño y toalla para las aguas termales",
+        "Aplíquese protector solar y repelente de insectos",
+        "Lleve una botella de agua y un cambio de ropa",
+        "Prepárese para lluvias ligeras en la selva tropical"
+      ]
     },
     "TourSunsetCruiseAndSnorckling": {
       "Name": "Tour Sunset Cruise and Snorckling",
-      "Introduction": "Introduction",
-      "Description": "Description",
-      "Duration": "Duration",
-      "Activities": ["Activities"],
-      "Location": "Location",
-      "Schedule": ["Schedule"],
-      "Attractions": ["Attractions"],
+      "Introduction": "Un recorrido impresionante a lo largo de la costa del Pacífico de la Península de Papagayo, perfecto para quienes buscan aventura y relajación en el agua.",
+      "Description": "Embárcate en un crucero panorámico en velero a lo largo de la hermosa costa, disfruta de aguas cristalinas, explora la vibrante vida marina mientras practicas snorkel y relájate mientras esperas una impresionante puesta de sol.",
+      "Duration": "4.5 horas",
+      "Activities": ["Navegar", "Hacer snorkel", "Vida marina", "Atardecer"],
+      "Location": "Peninsula de Papagayo",
+      "Schedule": ["Hora de recogida: 7:30 a.m. o 11:30 a.m."],
+      "Attractions": [
+        "Costa pintoresca del Pacífico",
+        "Aguas cristalinas ideales para hacer snorkel",
+        "Vida marina rica y diversa",
+        "Espectacular puesta de sol en el Pacífico"
+      ],
       "Price": "200",
-      "Includes": ["Includes"],
+      "Includes": [
+        "Paseo en velero por la costa",
+        "Equipo de snorkel",
+        "Sesión guiada de snorkel",
+        "Refrescos y bebidas a bordo",
+        "Guías turísticos experimentados"
+      ],
       "Requirements": {
-        "AgeMin": "AgeMin",
-        "WeightMax": "WeightMax",
-        "SizeGroup": "SizeGroup"
+        "AgeMin": "8 años",
+        "WeightMax": "Sin límite específico",
+        "SizeGroup": "Máximo de 20 participantes"
       },
-      "Dificulty": "Dificulty",
-      "Recomendations": ["Recomendations"]
+      "Difficulty": "Ninguna",
+      "Recommendations": [
+        "Traer traje de baño y toalla",
+        "Usar bloqueador solar y sombrero para protegerse del sol",
+        "Llevar cámara impermeable para fotos subacuáticas",
+        "Usar sandalias o zapatos para el agua cómodos",
+        "Mantenerse hidratado durante todo el recorrido"
+      ]
     },
     "TourWildlifeTuncale": {
       "Name": "Tour Wildlife Tuncale",
-      "Introduction": "Introduction",
-      "Description": "Description",
-      "Duration": "Duration",
-      "Activities": ["Activities"],
-      "Location": "Location",
-      "Schedule": ["Schedule"],
-      "Attractions": ["Attractions"],
+      "Introduction": "Una experiencia guiada en la naturaleza en el bosque tropical de Tenorio, perfecta para observadores de aves y entusiastas de la vida silvestre.",
+      "Description": "Explora la exuberante biodiversidad de la selva tropical de Tenorio en este inolvidable recorrido. Disfruta de la observación de aves, observa perezosos en su hábitat natural, visita el majestuoso volcán Tenorio y saborea un delicioso almuerzo en Bebedero. Una visita obligada para los amantes de la naturaleza y los aventureros.",
+      "Duration": "4 a 6 horas",
+      "Activities": [
+        "Observación de aves",
+        "Perezosos",
+        "Volcán",
+        "Comida tradicional"
+      ],
+      "Location": "Guanacaste",
+      "Schedule": ["Hora de recogida: 7:00 a.m. o 9:00 a.m."],
+      "Attractions": [
+        "Selva tropical Tenorio",
+        "Diversas especies de aves",
+        "Avistamientos de perezosos",
+        "Vistas panorámicas del volcán Tenorio"
+      ],
       "Price": "200",
-      "Includes": ["Includes"],
+      "Includes": [
+        "Transporte ida y vuelta",
+        "Guía profesional",
+        "Equipo para observación de aves (binoculares)",
+        "Almuerzo en Bebedero",
+        "Visita al Volcán Tenorio",
+        "Paradas para observación de fauna"
+      ],
       "Requirements": {
-        "AgeMin": "AgeMin",
-        "WeightMax": "WeightMax",
-        "SizeGroup": "SizeGroup"
+        "AgeMin": "6 años",
+        "WeightMax": "Sin límite específico",
+        "SizeGroup": "Máximo de 10 participantes"
       },
-      "Dificulty": "Dificulty",
-      "Recomendations": ["Recomendations"]
+      "Difficulty": "Fácil a moderado",
+      "Recommendations": [
+        "Use ropa cómoda y zapatos para caminar",
+        "Traiga binoculares para observar aves con más detalle",
+        "Use protector solar y repelente de insectos",
+        "Lleve una botella de agua reutilizable",
+        "Traiga una cámara para fotografiar la vida silvestre"
+      ]
     },
     "TourPaloVerde": {
       "Name": "Tour Palo Verde",
-      "Introduction": "Introduction",
-      "Description": "Description",
-      "Duration": "Duration",
-      "Activities": ["Activities"],
-      "Location": "Location",
-      "Schedule": ["Schedule"],
-      "Attractions": ["Attractions"],
+      "Introduction": "Una experiencia única para los amantes de la naturaleza, que combina la observación de la vida silvestre, el patrimonio cultural y las tradiciones agrícolas en la hermosa región de Palo Verde.",
+      "Description": "Descubra las maravillas de la naturaleza y la cultura en este tour guiado. Navegue por el río Tempisque para observar una variedad de aves, reptiles y anfibios en su hábitat natural. Aprenda sobre las prácticas agrícolas locales y disfrute de un auténtico almuerzo costarricense, seguido de una exhibición de cerámica tradicional.",
+      "Duration": "2 horas",
+      "Activities": [
+        "Navegación en río",
+        "Aves",
+        "Reptiles y anfibios",
+        "Comida tradicional",
+        "Exposición de cerámica"
+      ],
+      "Location": "Parque Nacional Palo Verde, Río Tempisque",
+      "Schedule": [
+        "Tour de la mañana: Recogida a las 7:00 a.m.",
+        "Tour de la tarde: Recogida a las 1:00 p.m."
+      ],
+      "Attractions": [
+        "Vida silvestre del río Tempisque",
+        "Rica biodiversidad que incluye aves, reptiles y anfibios",
+        "Exhibiciones culturales de cerámica tradicional",
+        "Demostraciones agrícolas (caña de azúcar, maíz y más)"
+      ],
       "Price": "200",
-      "Includes": ["Includes"],
+      "Includes": [
+        "Transporte ida y vuelta",
+        "Tour guiado por el río",
+        "Observación de vida silvestre",
+        "Almuerzo típico costarricense",
+        "Acceso a exposición de cerámica"
+      ],
       "Requirements": {
-        "AgeMin": "AgeMin",
-        "WeightMax": "WeightMax",
-        "SizeGroup": "SizeGroup"
+        "AgeMin": "5 años",
+        "WeightMax": "Sin límite específico",
+        "SizeGroup": "Máximo de 12 participantes"
       },
-      "Dificulty": "Dificulty",
-      "Recomendations": ["Recomendations"]
+      "Difficulty": "Fácil",
+      "Recommendations": [
+        "Use ropa y zapatos cómodos y livianos",
+        "Traiga protector solar y repelente de insectos",
+        "Lleve una botella de agua reutilizable",
+        "Traiga un sombrero y anteojos de sol",
+        "Traiga una cámara para fotografiar la vida silvestre"
+      ]
     }
   }
 }

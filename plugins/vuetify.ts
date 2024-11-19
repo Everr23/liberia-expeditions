@@ -1,7 +1,7 @@
 import "@mdi/font/css/materialdesignicons.css";
 import "vuetify/styles";
 import { createVuetify } from "vuetify";
-import { LANGS } from "~/constants";
+import { ELangs } from "~/constants";
 
 export default defineNuxtPlugin((app) => {
   const vuetify = createVuetify({
@@ -19,7 +19,7 @@ export default defineNuxtPlugin((app) => {
       },
     },
     locale: {
-      locale: LANGS.en,
+      locale: ELangs.en,
     },
   });
   app.vueApp.use(vuetify);

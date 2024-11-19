@@ -1,10 +1,10 @@
-import { LANGS } from "~/constants";
+import { ELangs } from "~/constants";
 import en from "./locales/en.json";
 import es from "./locales/es.json";
 
 export default defineI18nConfig(() => ({
   legacy: false,
-  locale: LANGS.en,
+  locale: ELangs.en,
   messages: {
     en,
     es,
