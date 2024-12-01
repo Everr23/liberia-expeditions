@@ -1,5 +1,5 @@
 <template>
-  <!-- <v-app>
+  <v-app>
     <v-layout>
       <v-main>
         <Header />
@@ -7,5 +7,5 @@
         <Footer />
       </v-main>
     </v-layout>
-  </v-app> -->
+  </v-app>
 </template>
